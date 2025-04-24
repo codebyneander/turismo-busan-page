@@ -78,3 +78,26 @@ span {
   color: #0C51A7;
   font-weight: bold;
 }
+
+/* Cards */
+#card-travel2 img,
+#card-travel3 img {
+  margin-top: 48px;
+}
+
+/* Texto destacado */
+#bom-para {
+  font-weight: bold;
+}
+
+#purple {
+  color: #591B98;
+}
+
+#pink {
+  color: #E5245E;
+}
+
+#orange {
+  color: #E95E10;
+}
