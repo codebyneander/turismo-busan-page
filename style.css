@@ -1,65 +1,67 @@
-/* Reset e configurações globais */
+/* Resetando a formatação padrão dos elementos */
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Ajusta o box-model para facilitar o controle do tamanho dos elementos */
 }
 
+/* Configurando a fonte padrão e a cor de texto */
 :root {
   font-family: "Open Sans", sans-serif;
   color: #333333;
 }
 
-/* Estilo geral do corpo da página */
+/* Definindo o estilo geral do corpo da página */
 body {
-  background-color: #f5f4f0;
+  background-color: #f5f4f0; /* Cor de fundo clara */
   font-family: "Open Sans", sans-serif;
-  color: #333;
+  color: #333; /* Cor de texto escura para boa legibilidade */
 }
 
-/* Container principal */
+/* Definindo o estilo do container principal */
 main#page {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 88px 80px;
-  border-color: #d9d9d9;
+  max-width: 1120px; /* Limita a largura máxima do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  padding: 88px 80px; /* Espaçamento interno */
+  border-color: #d9d9d9; /* Cor da borda do container */
 }
 
-/* Imagens */
+/* Estilizando as imagens, deixando-as com borda arredondada */
 img {
-  border-radius: 28px;
-  image-rendering: auto;
-  max-width: 100%;
-  height: auto;
+  border-radius: 28px; /* Bordas arredondadas */
+  image-rendering: auto; /* Melhora a qualidade da imagem */
+  max-width: 100%; /* As imagens não ultrapassam a largura do container */
+  height: auto; /* Mantém a proporção das imagens */
 }
 
-/* Cabeçalhos */
+/* Estilizando os cabeçalhos */
 h1 {
-  margin-top: 8px;
-  margin-bottom: 40px;
+  margin-top: 8px; /* Margem superior */
+  margin-bottom: 40px; /* Margem inferior */
 }
 
 h2 {
-  margin-top: 20px;
-  margin-bottom: 4px;
+  margin-top: 20px; /* Margem superior */
+  margin-bottom: 4px; /* Margem inferior */
 }
 
 h4 {
-  color: #e1624f;
+  color: #e1624f; /* Cor do texto para h4 */
 }
 
-/* Seções específicas */
+/* Estilo para a seção de imagem e descrição */
 #image {
-  text-align: center;
+  text-align: center; /* Centraliza o conteúdo da imagem */
 }
 
 #description {
-  margin-top: 24px;
-  margin-bottom: 40px;
-  text-align: center;
-  font-style: italic;
+  margin-top: 24px; /* Margem superior */
+  margin-bottom: 40px; /* Margem inferior */
+  text-align: center; /* Centraliza o texto */
+  font-style: italic; /* Estilo em itálico para o texto */
 }
 
+/* Estilo para a seção de títulos e descrições de lista */
 #title-list {
   margin-top: 64px;
   margin-bottom: 64px;
@@ -71,57 +73,60 @@ h4 {
 }
 
 ul {
-  padding-left: 26px;
+  padding-left: 26px; /* Indenta a lista */
 }
 
+/* Estilo para os links e elementos destacados dentro de listas */
 span {
-  color: #0C51A7;
-  font-weight: bold;
+  color: #0C51A7; /* Cor de destaque azul */
+  font-weight: bold; /* Negrito */
 }
 
-/* Cards */
+/* Estilo para os cards de viagem */
 #card-travel2 img,
 #card-travel3 img {
-  margin-top: 48px;
+  margin-top: 48px; /* Margem superior para imagens dos cards */
 }
 
-/* Texto destacado */
+/* Estilo para as listas de "Bom para" */
 #bom-para {
-  font-weight: bold;
+  font-weight: bold; /* Negrito para destacar o texto */
 }
 
+/* Definindo as cores para os itens "Bom para" */
 #purple {
-  color: #591B98;
+  color: #591B98; /* Roxo */
 }
 
 #pink {
-  color: #E5245E;
+  color: #E5245E; /* Rosa */
 }
 
 #orange {
-  color: #E95E10;
+  color: #E95E10; /* Laranja */
 }
 
-/* Divisor */
+/* Estilo para o divisor de seções */
 #divisor {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 40px; /* Margem superior */
+  margin-bottom: 40px; /* Margem inferior */
 }
 
-/* Descrição final */
+/* Estilo para a descrição final */
 #final-description {
-  text-align: center;
+  text-align: center; /* Centraliza o texto */
 }
 
-/* Rodapé */
+/* Estilo do rodapé */
 footer {
-  font-family: "Alice", serif;
+  font-family: "Alice", serif; /* Fonte serifada para o rodapé */
   font-weight: 400;
   font-style: normal;
-  text-align: center;
-  padding: 48px;
+  text-align: center; /* Centraliza o conteúdo */
+  padding: 48px; /* Espaçamento interno */
 }
 
+/* Estilizando a imagem do coração no rodapé */
 footer img {
-  vertical-align: middle;
+  vertical-align: middle; /* Alinha a imagem verticalmente ao texto */
 }
