@@ -26,13 +26,12 @@ Esse projeto foi desenvolvido como parte do meu aprendizado em **HTML e CSS**. A
 ```bash 
 📁 projeto-conheca-busan/ ├── index.html ├── style.css ├── assets/ │ ├── image.jpg │ ├── divisor.png │ ├── img-card-travel1.jpg │ ├── img-card-travel2.jpg │ ├── img-card-travel3.jpg │ └── heart.svg
 ```
-## 🚀 Como visualizar
+---
+# 🌐 Acesse o Projeto Publicado
 
-1. Faça o clone deste repositório:
-```bash
-git clone https://github.com/seu-usuario/pagina-receita.git
-```
-2. Você pode abrir o `index.html` diretamente no navegador para visualizar a página:
+## ➡️ [Clique aqui para visualizar online](https://codebyneander.github.io/turismo-busan-page/)
+
+---
 
 ✨ Prévia da Página
 ------------------
