@@ -1,6 +1,6 @@
 # 🌍 Conheça Busan – Página Turística
 
-![Busan Banner](assets/image.jpg)
+![Busan Banner](assets/Cover.png)
 
 Uma página web simples e elegante que apresenta **Busan**, uma das cidades mais vibrantes da Coreia do Sul! 🇰🇷✨
 
